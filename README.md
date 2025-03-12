@@ -1,6 +1,7 @@
 # Hệ Thống Nhận Diện Cảm Xúc và Tương Tác Môi Trường
 
 Hệ thống thông minh nhận diện cảm xúc của người dùng qua khuôn mặt và giọng nói, kết hợp với điều khiển các thiết bị IoT (đèn, nhạc, nhiệt độ) để tạo môi trường phù hợp với trạng thái cảm xúc.
+![t-SNE](https://i.imgur.com/VvuPDLz.png)
 
 
 ## Tổng Quan
@@ -132,7 +133,7 @@ Chỉnh sửa file `client/config.py` để thay đổi:
 - Cấu hình camera
 - Âm thanh và nhãn cảm xúc
 
-![Cấu trúc hệ thống](https://imgur.com/a/GWXJBm8)
+![Cấu trúc hệ thống](https://i.imgur.com/EU4rKU0.png)
 
 ## Giải Quyết Sự Cố
 
@@ -158,9 +159,5 @@ Một số ý tưởng để phát triển mở rộng:
 4. Cải thiện thuật toán nhận diện cảm xúc
 5. Thêm hỗ trợ cho các cảm biến thực (thay vì dữ liệu giả lập)
 
-## Hình Ảnh Hệ Thống
 
-### Sơ đồ luồng hoạt động
-
-![Luồng hoạt động](images/workflow.png)
 
