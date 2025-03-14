@@ -1,0 +1,21 @@
+# Client dependencies
+opencv-python>=4.5.0
+pygame>=2.0.0
+numpy>=1.19.0
+Pillow>=8.0.0
+deepface>=0.0.75
+SpeechRecognition>=3.8.1
+gTTS>=2.2.3
+requests>=2.25.0
+PyAudio>=0.2.11
+
+# Server dependencies
+Flask>=2.0.0
+Flask-CORS>=3.0.10
+
+# Shared dependencies
+python-dotenv>=0.15.0
+
+# ESP32 dependencies (for reference)
+# - ArduinoJson
+# - WiFi
