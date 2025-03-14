@@ -1,5 +1,21 @@
-# Hệ Thống Nhận Diện Cảm Xúc và Tương Tác Môi Trường
+# 🎓 DaiNam University Plagiarism Detection System
 
+<div align="center">
+
+<p align="center">
+  <img src="docs/images/logo.png" alt="DaiNam University Logo" width="200"/>
+  <img src="docs/images/AIoTLab_logo.png" alt="AIoTLab Logo" width="170"/>
+</p>
+
+[![Made by AIoTLab](https://img.shields.io/badge/Made%20by%20AIoTLab-blue?style=for-the-badge)](https://fit.dainam.edu.vn)
+[![Faculty of IT](https://img.shields.io/badge/Faculty%20of%20Information%20Technology-green?style=for-the-badge)](https://fit.dainam.edu.vn)
+[![DaiNam University](https://img.shields.io/badge/DaiNam%20University-red?style=for-the-badge)](https://dainam.edu.vn)
+
+
+
+
+# Hệ Thống Nhận Diện Cảm Xúc và Tương Tác Môi Trường
+</div>
 Hệ thống thông minh nhận diện cảm xúc của người dùng qua khuôn mặt và giọng nói, kết hợp với điều khiển các thiết bị IoT (đèn, nhạc, nhiệt độ) để tạo môi trường phù hợp với trạng thái cảm xúc.
 ![t-SNE](https://i.imgur.com/VvuPDLz.png)
 
@@ -11,6 +27,12 @@ Hệ thống bao gồm ba thành phần chính:
 1. **Ứng dụng Client**: Chạy trên máy tính, sử dụng camera để nhận diện cảm xúc qua khuôn mặt và micro để nhận diện lệnh giọng nói
 2. **IoT Server**: Điều khiển và quản lý các thiết bị IoT (đèn, nhạc, cảm biến)
 3. **Thiết Bị IoT**: ESP32 kết nối với đèn và các thiết bị thông minh khác
+      
+Kiến trúc:
+<p align="center">
+  <img src="docs/images/das.png" alt="System Architecture" width="800"/>
+</p>
+
 
 ## Chức Năng Chính
 
@@ -19,46 +41,6 @@ Hệ thống bao gồm ba thành phần chính:
 - **Tự động đưa ra đề xuất**: Dựa trên cảm xúc để điều chỉnh môi trường (bật/tắt đèn, phát nhạc phù hợp)
 - **Phản hồi bằng giọng nói**: Thông báo và phản hồi bằng giọng nói tiếng Việt
 
-
-## Cấu Trúc Thư Mục
-
-```
-.
-├── client/                 # Ứng dụng nhận diện cảm xúc
-│   ├── config.py           # Cấu hình hệ thống
-│   ├── main.py             # Chương trình chính
-│   ├── models/             # Mô hình dữ liệu
-│   ├── services/           # Các dịch vụ (emotion, voice, tts, iot)
-│   ├── ui/                 # Giao diện người dùng
-│   └── utils/              # Tiện ích (xử lý âm thanh, hình ảnh)
-│
-├── server/                 # Server IoT
-│   ├── app.py              # Ứng dụng Flask
-│   ├── config.py           # Cấu hình server
-│   ├── models.py           # Các lớp quản lý dữ liệu
-│   ├── routes/             # Định tuyến API
-│   └── utils.py            # Tiện ích
-│
-└── done/                   # Mã nguồn cho ESP32
-    └── done.ino            # Chương trình Arduino
-```
-
-## Yêu Cầu Hệ Thống
-
-### Phần Mềm
-- Python 3.8+
-- Flask
-- OpenCV
-- DeepFace
-- SpeechRecognition
-- gTTS (Google Text-to-Speech)
-- PyGame
-- Các thư viện khác: numpy, PIL, requests
-
-### Phần Cứng
-- Máy tính có camera và microphone
-- ESP32 (tùy chọn)
-- Đèn LED (tùy chọn)
 
 ## Cài Đặt và Chạy
 
@@ -133,7 +115,6 @@ Chỉnh sửa file `client/config.py` để thay đổi:
 - Cấu hình camera
 - Âm thanh và nhãn cảm xúc
 
-![Cấu trúc hệ thống](https://i.imgur.com/EU4rKU0.png)
 
 ## Giải Quyết Sự Cố
 
