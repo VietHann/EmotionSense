@@ -1,4 +1,4 @@
-# 🎓 DaiNam University Plagiarism Detection System
+# 🎓 DaiNam University 
 
 <div align="center">
 
