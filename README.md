@@ -17,6 +17,7 @@
 # Hệ Thống Nhận Diện Cảm Xúc và Tương Tác Môi Trường
 </div>
 Hệ thống thông minh nhận diện cảm xúc của người dùng qua khuôn mặt và giọng nói, kết hợp với điều khiển các thiết bị IoT (đèn, nhạc, nhiệt độ) để tạo môi trường phù hợp với trạng thái cảm xúc.
+
 ![t-SNE](https://i.imgur.com/VvuPDLz.png)
 
 
