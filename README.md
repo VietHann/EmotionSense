@@ -146,7 +146,7 @@ Chỉnh sửa file `client/config.py` để thay đổi:
 - Âm thanh và nhãn cảm xúc
 ## POSTER
 
-  <img src="Poster_N11_finalfinal-1.png" alt="DaiNam University Logo" width="200"/>
+  <img src="Poster_N11_finalfinal-1.png" alt="DaiNam University Logo"/>
 
 ## ⚠️ Giải Quyết Sự Cố
 
