@@ -144,7 +144,9 @@ Chỉnh sửa file `client/config.py` để thay đổi:
 - Địa chỉ server IoT
 - Cấu hình camera
 - Âm thanh và nhãn cảm xúc
+## POSTER
 
+  <img src="Poster_N11_finalfinal-1.png" alt="DaiNam University Logo" width="200"/>
 
 ## ⚠️ Giải Quyết Sự Cố
 
